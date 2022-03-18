@@ -9,3 +9,4 @@
 
 # Unignore all dirs
 !*/
+*.txt
