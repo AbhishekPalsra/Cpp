@@ -11,9 +11,9 @@ int main()
       #endif
     int a,b,c; // we cant use variable before declaring them
     // cout<<"Enter two numbers\n"; // no need to write std:: as we already mentioned
-    std::cin>>a>>b;
+    cin>>a>>b;
     c=a+b; // assignment a+b to c   
-    cout<<"Adiition is "<<c<<endl;
+    cout<<"Adiition is "<<c;
 
 
 
