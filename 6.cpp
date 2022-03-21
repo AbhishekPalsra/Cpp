@@ -1,33 +1,5 @@
 #include<iostream>
-#define _CRT_SECURE_NO_DEPRECATE
-#include<stdio.h>
-#include<stdlib.h>
-#include<string>
-#include <iostream>
-#include <string>
-#include <vector>
-#include <climits>
-#include <algorithm>
-#include <sstream>
-#include <queue>
-#include <deque>
-#include <bitset>
-#include <iterator>
-#include <list>
-#include <stack>
-#include <map>
-#include <set>
-#include <functional>
-#include <numeric>
-#include <utility>
-#include <limits>
-#include <time.h>
-#include <math.h>
-#include <assert.h>
 #include<bits/stdc++.h>
-
-
-
 using namespace std;  
 int main()
 {
@@ -46,7 +18,7 @@ int main()
       cout<<sizeof(u)<<endl ; // size taken by _ in memory
       cout<<"0"<<" "<<UCHAR_MAX; // 
       cout<<sizeof(x)<<endl;
-      cout<<CHAR_MIN<<" "<<CHAR_MAX<<endl;
+      cout<<CHAR_MIN<<" "<<CHAR_MAX<<endl; // max and min value it can take
 
       cout<<sizeof(y)<<endl;
       cout<<INT_MIN<<" "<<INT_MAX<<endl;
