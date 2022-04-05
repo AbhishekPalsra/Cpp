@@ -7,21 +7,22 @@ int main()
       freopen("input.txt","r",stdin);
       freopen("output.txt","w",stdout);
       #endif
-      int a,b,c;
-      int sum;
-      sum = sum + a;
-      sum+=a; // thus is faster than the above operation
-      sum=sum*a;
-      sum*=a;
-      sum+=a+b+c;
-      sum%=a;
-      a+=1;
-
-
+      int n;
+      cin>>n;
+      int rev=0;
+      while(n!=0)
+      {
+          int c=n%10;
+          n/=10;
+          cout<<c<<endl;
+          rev=rev*10+c;
+      }
+      cout<<rev<<endl;
 
 
 
       return 0;
+
 
 
 }

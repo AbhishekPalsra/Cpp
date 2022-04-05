@@ -28,7 +28,7 @@ int main()
           }
           else
           {
-              c=2; // min move one can take to reach
+              c=2; // min move one can take to reach!
           }
 
 

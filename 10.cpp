@@ -19,7 +19,7 @@ int main()
       }
       else
       {
-      rootOne= (float)(-b+ sqrt(pow(b,2)-4*a*c))/(2*a) ;
+      rootOne= (float)(-b+ sqrt(pow(b,2)-4*a*c))/(2*a) ; //used type casting here
       rootTwo=  (float)(-b- sqrt(pow(b,2)-4*a*c))/(2*a) ;
       }
       cout<<"Roots are "<<rootOne<<" and "<<rootTwo<<endl;

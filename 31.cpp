@@ -7,21 +7,24 @@ int main()
       freopen("input.txt","r",stdin);
       freopen("output.txt","w",stdout);
       #endif
-      int a,b,c;
-      int sum;
-      sum = sum + a;
-      sum+=a; // thus is faster than the above operation
-      sum=sum*a;
-      sum*=a;
-      sum+=a+b+c;
-      sum%=a;
-      a+=1;
+//facctors of n
+//perfect num is if sum=number*2
+int n;
+cin>>n;
+int sum=0;
+for(int i=1;i<=n;i++)
+{
+    if(n%i==0)// == vs =
+    {
+        sum+=i;
+        cout<<i<<endl;
+    }
 
-
-
-
+}
+cout<<sum;
 
       return 0;
+
 
 
 }

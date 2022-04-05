@@ -7,21 +7,16 @@ int main()
       freopen("input.txt","r",stdin);
       freopen("output.txt","w",stdout);
       #endif
-      int a,b,c;
-      int sum;
-      sum = sum + a;
-      sum+=a; // thus is faster than the above operation
-      sum=sum*a;
-      sum*=a;
-      sum+=a+b+c;
-      sum%=a;
-      a+=1;
-
-
+      char arr[]={'A','B',66,67};
+      // asci codes are coverted to char
+      //for each x in a
+      for(auto x:arr)
+      cout<<x<<endl;
 
 
 
       return 0;
+
 
 
 }

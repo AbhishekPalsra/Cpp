@@ -7,21 +7,19 @@ int main()
       freopen("input.txt","r",stdin);
       freopen("output.txt","w",stdout);
       #endif
-      int a,b,c;
-      int sum;
-      sum = sum + a;
-      sum+=a; // thus is faster than the above operation
-      sum=sum*a;
-      sum*=a;
-      sum+=a+b+c;
-      sum%=a;
-      a+=1;
+int n;
+cin>>n;
+int fac=1;
+for(int i=1;i<n+1;i++)
+{
+    fac*=i;
 
-
-
+}
+cout<<fac; //rrecursion fast
 
 
       return 0;
+
 
 
 }
