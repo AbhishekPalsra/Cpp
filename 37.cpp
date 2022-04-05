@@ -11,7 +11,9 @@ int main()
       // asci codes are coverted to char
       //for each x in a
       for(auto x:arr)
-      cout<<x<<endl;
+
+      cout<<++x<<endl;
+      //x is getting a copy of elements of array so x is changed but array elemment is not chnaged
 
 
 
