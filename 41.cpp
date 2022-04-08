@@ -14,6 +14,7 @@ int main()
       }
       int key;
       cin>>key;
+    //linear search O(N)
       for(int i=0;i<10;i++)
       {
           if(key==arr[i])
