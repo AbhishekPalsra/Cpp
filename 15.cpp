@@ -19,12 +19,12 @@ int main()
                       //-ve number in cpp are store in 2's compliment
                       //  00000111
                       //         1 
-                      //  00001000     ---> 8 & sign is already decided
+                      //  00001000     ---> 8 & sign is already decided // -8
 
       // z=x>>1; right shift :: bits are shifted to rhs by i units and x= x/2^i;
       cout<<(int)y<<endl<<(int)z<<endl<<(int)u;
 
-x
+
 
       return 0;
 

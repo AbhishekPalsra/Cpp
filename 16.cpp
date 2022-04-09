@@ -31,14 +31,15 @@ enum deptt
 int main()
 {
     day d;
+    
     // d can be any of mon/tue/....
-    d = fri;
+    d=tue;
 
     // this operation on an enumerated type requires an applicable user-defined operator function",
 
     // mon++;
     // wrong we cant change them  d++;
-    cout << d<<endl;
+    cout <<d<<endl;
     sex s;
     s=female;
     cout<<s<<endl;
@@ -47,6 +48,9 @@ int main()
     y=shek;
     cout<<y<<endl;
     cout<<shek<<endl;
+
+
+    return 0;
 
 
     
