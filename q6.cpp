@@ -7,8 +7,8 @@ int main()
       freopen("input.txt","r",stdin);
       freopen("output.txt","w",stdout);
       #endif
-      //  1 2 3 4 
-      // 1        * i=1;j=4
+      //  1 2 3 4 5
+      // 1        * i=1;j=5
       // 2      * *
       // 3    * * *
       // 4  * * * *
@@ -76,11 +76,12 @@ int main()
            cout<<endl;
        }
        cout<<endl;
-       // * * * * *
-       // * * * *
-      //  * * *
-      //  * *
-      //  *
+       // 1 2 3 4 5
+       //1 * * * * *
+       //2 * * * *
+      // 3 * * *
+      // 4 * *
+      // 5 *
 
        for(int i=1;i<=5;i++)
        {
