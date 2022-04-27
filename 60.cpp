@@ -15,7 +15,8 @@ int main()
       cout<<&a<<endl; // adress of a
       cout<<&p<<endl; // adress of p which is diff! p stores adress of a but adress of p is itslef diff
       cout<<*p<<endl; // relocta the address to data .. derefrencing pointers
-      cout<<*(&a)<<endl;
+      cout<<*(&a)<<endl; // defrening adress 
+      
 
 
 

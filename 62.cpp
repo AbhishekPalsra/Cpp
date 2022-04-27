@@ -21,6 +21,7 @@ int main()
      cout<<a[0]<<endl; 
      cout<<a<<endl; //a repesent adress of a[0]
      cout<<&(a[0])<<endl;
+
       return 0;
 
 

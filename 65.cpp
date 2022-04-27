@@ -13,6 +13,7 @@ int main()
       int *p;
       p=new int[size];
       delete []p; // this is imp otherwise it wil leak to meomory leak
+      p=nullptr;
       cout<<"enter new size";
       cin>>size;
       p=new int[size]; // same array of new size will be created

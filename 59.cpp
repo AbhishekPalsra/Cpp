@@ -14,11 +14,12 @@ int main()
       int *p,*e;
        p=&x; // p is having adress of x in memoery;
        e=&y;
+       // p and e are also in stack moenory allocted diff adress but they store other adress in it
        cout<<p;
        cout<<endl;
        cout<<e;
        cout<<endl;
-       cout<<&x;
+       cout<<&x; 
        cout<<endl;
        cout<<&y;
 

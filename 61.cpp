@@ -19,7 +19,7 @@ int main()
  // external file or input device is accesed with helpof pointers
 // cin and cout use pointers
 // codesetion and stack can be accessed easily
-// all rest is obtained through pointers!
+// all rest is obtained through pointers
 
 
       return 0;
