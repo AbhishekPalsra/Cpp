@@ -1,6 +1,8 @@
 #include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
+// enum is used to define our own data type , user defined data type
+// number instead of string
 //  #define hi 0
 // const int hi =0;
 // enum is used to define group of const under one name
@@ -37,8 +39,9 @@ int main()
 
     // this operation on an enumerated type requires an applicable user-defined operator function",
 
-    // mon++;
-    // wrong we cant change them  d++;
+    // d++,mon++;
+    // wrong we cant change them  
+    
     cout <<d<<endl;
     sex s;
     s=female;

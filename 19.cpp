@@ -14,6 +14,10 @@ int main()
          cout<<"young";
 
      }
+     else
+     {
+         cout<<"old";
+     }
 
 
       return 0;

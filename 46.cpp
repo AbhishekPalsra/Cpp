@@ -24,7 +24,7 @@ int main()
     //    ***
     //     **
     //      *      
-    // %[^\n] for multiple word string
+    // %[^\n] for multiple word string , getline(cin,str)
     for (int i = 0; i < 4; i++) // colums
     {
         for (int j = 0; j < 4; j++) // rows

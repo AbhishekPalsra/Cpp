@@ -2,7 +2,7 @@
 #include<bits/stdc++.h>
 using namespace std;  
 typedef int marks;
-// typedef is to make program more readable and purpose of variable
+// typedef is to make program more readable and purpose of variable 
 int main()
 {
     #ifndef ONLINE_JUDGE

@@ -14,7 +14,7 @@ int main()
       int l=0,h=9;
       int key,mid;
       cin>>key;
-      while(l<=h)
+      while(l<=h) 
       {
           mid=(l+h)/2 ;// trunctaed value
           if(arr[mid]==key)

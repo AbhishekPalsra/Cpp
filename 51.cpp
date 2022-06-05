@@ -8,7 +8,6 @@ int main()
       freopen("output.txt","w",stdout);
       #endif
       int a[2][3];
-
       for(auto& x:a)  //  variables of type row of A
       //for using for loop in multi arr we pass adrress
       {

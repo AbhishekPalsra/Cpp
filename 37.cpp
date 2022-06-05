@@ -9,9 +9,8 @@ int main()
       #endif
       char arr[]={'A','B',66,67};
       // asci codes are coverted to char
-      //for each x in a
+      //for each x in arr
       for(auto x:arr)
-
       cout<<++x<<endl;
       //x is getting a copy of elements of array so x is changed but array elemment is not chnaged
 

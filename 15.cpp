@@ -7,7 +7,8 @@ int main()
       freopen("input.txt","r",stdin);
       freopen("output.txt","w",stdout);
       #endif
-      char x=7;
+      char x=7; // 7 is not the character stored ! char across this ascii will be stored in x ! auto type casted
+      cout<<x<<endl;
       char y;
       char u;
       y= x<<1; //  bits are shifted to LHS andx= x* 2^1

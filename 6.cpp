@@ -16,7 +16,7 @@ int main()
       double e; // more precision than long
       long double r;
       cout<<sizeof(u)<<endl ; // size taken by _ in memory
-      cout<<"0"<<" "<<UCHAR_MAX; // 
+      cout<<"0"<<" "<<UCHAR_MAX<<endl; // 
       cout<<sizeof(x)<<endl;
       cout<<CHAR_MIN<<" "<<CHAR_MAX<<endl; // max and min value it can take
 

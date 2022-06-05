@@ -10,7 +10,7 @@ int main()
       // overflow
       // char -128 to 127
       char x=127; // max value a character can store
-
+      
       cout<<(int)x <<endl;
       char y=x++; // x value is 1st tsored in y  then incremented
       cout<<(int)y<<endl; 
@@ -22,7 +22,7 @@ int main()
        //    x    10000000  -ve numbers in c++ are stored in 2's compliment
        //         01111111 
        //               +1
-      //          10000000
+      //          10000000 
        // -128
 
 

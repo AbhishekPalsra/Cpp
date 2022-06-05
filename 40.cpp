@@ -20,15 +20,14 @@ for(int i;i<7;i++)
 }
 cout<<lar<<endl;
 lar=arr[0];
-for(int x:arr)
+for(auto x:arr)
 {
     if(x>lar)
-    {
-        lar=x;
-    }
+    lar=x;
+
 
 }
-cout<<lar<<endl;
+cout<<lar;
 
 
 

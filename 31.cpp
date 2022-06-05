@@ -8,7 +8,7 @@ int main()
       freopen("output.txt","w",stdout);
       #endif
 //facctors of n
-//perfect num is if sum=number*2
+//perfect num is if sum of its proper divisor=number
 int n;
 cin>>n;
 int sum=0;

@@ -11,7 +11,7 @@ int main()
       freopen("output.txt","w",stdout);
       #endif // for linking innput and output files
 
-      string name;
+      string name; // string class in cpp
       cout<<"May i know your name?"<<endl;
       cin>>name; // this will read only one word
       cout<<"Welcome miss "<<endl<<name<<endl; 

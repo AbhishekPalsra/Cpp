@@ -8,7 +8,7 @@ int main()
       freopen("output.txt","w",stdout);
       #endif
      int arr[]={1,2,555,66,77};
-     for(int &x:arr)
+     for(auto &x:arr)
      {
          cout<<++x<<endl;
          

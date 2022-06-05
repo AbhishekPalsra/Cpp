@@ -13,6 +13,7 @@ int main()
 
       cout<<t<<endl;
       char letter='z';
+      cout<<(int)letter<<endl;
       letter++;
       cout<<letter<<endl;
       cout<<(int)letter<<endl;

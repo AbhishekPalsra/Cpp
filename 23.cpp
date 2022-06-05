@@ -26,8 +26,10 @@ int main()
           break;
           /// defualt can be present anywhere in the switch block
           // defualt block can be placed anywhere inside the switch 
-          //switch statment is faster than multiple if else
+          //switch statment is faster than multiple if else..
       }
+
+
 
 
 

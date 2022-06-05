@@ -8,18 +8,18 @@ int main()
       freopen("output.txt","w",stdout);
       #endif
 
-      float a[]={2.6f,3.5f,66,3};
-      for(int x:a) // x is assigmed to vlaue of arr element one by one
+      float arr[]={2.6f,3.5f,66,3};
+      for(int x:arr) // x is assigmed to vlaue of arr element one by one
       {
           cout<<x<<endl;
 
       } // this will truncate the decimal
-      for(float x:a)
+      for(float x:arr)
       {
           cout<<x<<endl;
 
       }
-      for(auto x:a) // auto will decide acc to array declarartion itself
+      for(auto x:arr) // auto will decide acc to array declarartion itself
       {
           cout<<x<<endl;
       }

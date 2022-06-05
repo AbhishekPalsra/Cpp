@@ -23,7 +23,8 @@ int main()
       do
       {
         cout<<i--<<endl;
-      } while (i);
+      } 
+      while (i);
       
 
       
