@@ -1,10 +1,13 @@
 #include<iostream>
 #include<bits/stdc++.h>
-using namespace std; 
-//inside the fun avoid user interaction ie cin and cout 
-void fun(void)
+using namespace std;  
+void fun(int n)
 {
-    cout<<"hiii"<<endl;
+    if(n>0)
+    {
+        fun(n-1);
+        cout<<n<<endl;
+    }
 }
 int main()
 {
@@ -12,12 +15,8 @@ int main()
       freopen("input.txt","r",stdin);
       freopen("output.txt","w",stdout);
       #endif
-      for(int i=0;i<5;i++)
-      {
-          fun();
+      fun(5);
 
-      }
-      
 
 
 

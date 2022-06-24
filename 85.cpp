@@ -3,7 +3,7 @@
 using namespace std;  
 int * fun(int size)
 {
-    int *p=new int[size];
+    int *p=new int[size]; // new array is created in heap
     for(int i=0;i<size;i++)
     {
         p[i]=i+1;
@@ -19,7 +19,7 @@ int main()
       #endif
       // functions can also return adressses same as returning variable
      int *ptr=fun(5);
-     
+     // main function can acces heap memory using pointers
 
 
 

@@ -21,7 +21,7 @@ int *p=new int[5];  // array of size 5 is created in heap
 //   p=NULL;
  cout<<p[1]<<endl;
 
- p=NULL;
+ p=nullptr;
       return 0;
 
 

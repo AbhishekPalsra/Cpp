@@ -7,8 +7,7 @@ int main()
       freopen("input.txt","r",stdin);
       freopen("output.txt","w",stdout);
       #endif
-     // Program to Multiply Matrices
-
+     
  int a[10][10], b[10][10], mult[10][10], r1, c1, r2, c2, i, j, k;
 
  cout << "Enter rows and columns for first matrix: ";

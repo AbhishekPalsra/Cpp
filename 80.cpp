@@ -7,7 +7,7 @@ using namespace std;
 // }
 // default arguments
 int max(int a=INT_MIN,int b=INT_MIN,int c=INT_MIN)
-// deault aggument is filled from left hand side without skipping 
+// deault aggument is filled from RIGHT hand side without skipping 
 
 {
     return a>b && a>c ? a : b>c?b: c;

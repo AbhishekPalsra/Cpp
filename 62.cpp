@@ -10,10 +10,10 @@ int main()
       #endif
      int a[5]={1,2,3,4,5}; // crreated in stack
      int *b;
-     b=new int[5]; // created in heap // new imp 
+     b=new int[5]; // created in heap // new important
      // new var in heap are not deleted until complete executtion you should delocate it urself
-    
-
+    // heap memory must be deallocated
+     // accesing elements similar to a[], b[]
 
  // DELETE FIRST
     delete []b; // THIS WILL DELETE

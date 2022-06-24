@@ -34,9 +34,9 @@ int main()
     cout<<x<<endl;
     x=sum(a,b);
     cout<<x<<endl;
-    float e=2.3f;
+    float e=2.3f; // only float would be accepted by func i flfoat is in the input dtadttype
     float f=23.4f;
-    float y=sum(e,f);
+    float y=sum(e,f); 
     cout<<y<<endl;
       return 0;
 

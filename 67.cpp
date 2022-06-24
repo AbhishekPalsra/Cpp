@@ -8,7 +8,8 @@ int main()
       freopen("output.txt","w",stdout);
       #endif
 int a[]={1,23,4,67,7,7};
-int *p=a;
+int *p=a; //p is pointing to base adrress
+// p=&a[0]
 cout<<p<<endl;
 cout<<*p<<endl;
 p++; // will move to next location as it is int pointer it moves by 4

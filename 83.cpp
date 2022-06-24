@@ -5,6 +5,7 @@ using namespace std;
 void swap(int &x,int &y) // x and y acts as a refrences to to x and y in main function
 // these x and y are not seperate variable these itself are x and y of main function
 // then how its change the values
+// one function cannt access variable of other fxn
 // in call by refrnece swap code is generated in the main block only instead of seperate genretion
 // swap becomes part of main function only when machine code is generated
 // swap function is automatically becoome inline fucntion

@@ -1,10 +1,11 @@
 #include<iostream>
 #include<bits/stdc++.h>
-using namespace std; 
-//inside the fun avoid user interaction ie cin and cout 
-void fun(void)
+using namespace std;  
+int * fun()
 {
-    cout<<"hiii"<<endl;
+    int x=10;
+    return &x; //cannt return address of local variables
+    // we can return adress of heap memory
 }
 int main()
 {
@@ -12,13 +13,6 @@ int main()
       freopen("input.txt","r",stdin);
       freopen("output.txt","w",stdout);
       #endif
-      for(int i=0;i<5;i++)
-      {
-          fun();
-
-      }
-      
-
 
 
 

@@ -1,7 +1,7 @@
 #include<iostream>
 #include<bits/stdc++.h>
 using namespace std; 
-int fun(int x,int y) // this will be in another section of stack and all var x,y,z will be flushed
+int fun(int x,int y) // this will be in another section of stack and all var x,y,z will be flushed in the end of fun execution
 {
     int z=x+y;
     return z;

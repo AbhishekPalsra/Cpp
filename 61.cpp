@@ -13,12 +13,12 @@ int main()
  //  STACK
  //   ^ int p
  //  CODE main
- /
+ 
 
 
  // external file or input device is accesed with helpof pointers
 // cin and cout use pointers
-// codesetion and stack can be accessed easily
+// codesetion and stack can be accessed easily by main function
 // all rest is obtained through pointers
 
 
