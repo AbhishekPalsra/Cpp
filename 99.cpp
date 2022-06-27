@@ -15,7 +15,7 @@ int main()
       char h[]={'h','e','l','l','o','\0'};
       char i[]={65,66,67,68,6,'\0'}; // asci value
       char *p="hello";
-      // p is a pointer pointing to the string in heap rest all are in heap
+      // p is a pointer pointing to the string in heap rest all are in stack
 
 
 
