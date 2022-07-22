@@ -13,8 +13,8 @@ int main()
     // will not created exact size array..it will make sure that no of spaces in string is awlasy greeater than no of char stored
     // capacity>length
     // it automatically increase size by deleting previous arrayy and making new arrray
-    getline(cin,str);
-    // no problem on new line character here
+    getline(cin,str); //best
+    // no problem on new line character here in string class .. no problem of characters here
 
 
       return 0;

@@ -18,6 +18,7 @@ int main()
         cout<<token<<endl;
         token=strtok(NULL,";="); // null for same string // upon the symbol inside " " tokenising will be done
     }
+    
 
       return 0;
 

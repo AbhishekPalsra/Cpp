@@ -11,7 +11,7 @@ int main()
     // problem with get
     cin.get(s,100); // reads all before enter
     cout<<"welcome"<<" "<<s<<endl;
-    cin.ignore(); //ignore extra charcters after reading string 1
+     cin.ignore(); //ignore extra charcters after reading string 1
     cin.get(s2,100); // reads enter
     cout<<"welcome"<<" "<<s2<<endl;
     return 0;
