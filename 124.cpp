@@ -8,9 +8,9 @@ int main()
       freopen("output.txt","w",stdout);
       #endif
   string str="how are you";
-  cout<<str.find("are"); // return index of 1st element foud;
-  cout<<str.find('o'); // from leftt side find char
-  cout<<str.rfind('o') ;// from right sidwe return index
+  cout<<str.find("are")<<endl; // return index of 1st element found;
+  cout<<str.find('o')<<endl; // from leftt side find char
+  cout<<str.rfind('o')<<endl;// from right sidwe return index
   // if element is not there it return index out of bounda
 
 
