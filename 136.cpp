@@ -11,7 +11,12 @@ int main()
 
       string email= "abhipalsra@gmail.com";
       int index=email.find('@');
-      cout<<email.substr(0,10);
+      string username=email.substr(0,10);
+      cout<<username<<endl;
+      
+      
+
+
 
 
 
