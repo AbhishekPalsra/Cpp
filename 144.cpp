@@ -7,7 +7,7 @@ int main()
       freopen("input.txt","r",stdin);
       freopen("output.txt","w",stdout);
       #endif
-      // perfect class
+      // perfect class br
       // type of function inside a class
       // constructor
       //mutator
