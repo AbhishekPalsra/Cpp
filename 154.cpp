@@ -1,57 +1,66 @@
-// C++ program for implementation of
-// selection sort
-#include <bits/stdc++.h>
-using namespace std;
-
-//Swap function
-void swap(int *xp, int *yp)
+#include<iostream>
+#include<bits/stdc++.h>
+using namespace std;  
+#define n 10
+void swap(int *p,int *q)
 {
-	int temp = *xp;
-	*xp = *yp;
-	*yp = temp;
+	int temp=*p;
+     *p=*q;
+	 *q=temp;
 }
+// you need to declare function before using it in another function
 
-void selectionSort(int arr[], int n)
+void bubbleeSort(int arr[],int k) 
+// send biggest no to the end!
 {
-	int i, j, min_idx;
 
-	// One by one move boundary of
-	// unsorted subarray
-	for (i = 0; i < n-1; i++)
-	{
+	bool swapped;
+	for(int i=0;i<k-1;i++)
+	{ 
+         swapped=false; // if inner loop doesnt performa any swapping then array is already sorted
+		for(int j=0;j<k-1-i;j++) // as last elment is already sorted
+		{    
+
+			if(arr[j]>arr[j+1])
+			{
+				swap(&arr[j],&arr[j+1]);
+				swapped=true;
+				
+			}
+		}
+		if(swapped==false)
+		{
+			break;
+		}
+
+
 		
-		// Find the minimum element in
-		// unsorted array
-		min_idx = i;
-		for (j = i+1; j < n; j++)
-		if (arr[j] < arr[min_idx])
-			min_idx = j;
-
-		// Swap the found minimum element
-		// with the first element
-		swap(&arr[min_idx], &arr[i]);
 	}
+  
 }
 
-//Function to print an array
-void printArray(int arr[], int size)
-{
-	int i;
-	for (i=0; i < size; i++)
-		cout << arr[i] << " ";
-	cout << endl;
-}
-
-// Driver program to test above functions
 int main()
 {
-	int arr[] = {64, 25, 12, 22, 11};
-	int n = sizeof(arr)/sizeof(arr[0]);
-	selectionSort(arr, n);
-	cout << "Sorted array: \n";
-	printArray(arr, n);
-	return 0;
+    #ifndef ONLINE_JUDGE
+      freopen("input.txt","r",stdin);
+      freopen("output.txt","w",stdout);
+      #endif
+	  int arr[n];
+	  for(int i=0;i<n;i++)
+	  {
+		  cin>>arr[i];
+	  }
+	  bubbleeSort(arr,n);
+	   for(int i=0;i<n;i++)
+	  {
+		  cout<<arr[i]<<endl;
+	  }
+
+
+
+
+      return 0;
+
+
+
 }
-// This is code is contributed by rathbhupendra
-
-

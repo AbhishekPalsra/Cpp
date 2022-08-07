@@ -22,7 +22,7 @@ class rectangle{
       l=0;
       
   }
-   void setbreadth(int breadth) // mutator function
+  void setbreadth(int breadth) // mutator function
   {
       if(breadth>0)
       b=breadth; 
@@ -42,10 +42,15 @@ class rectangle{
 };
 int main()
 {
-    #ifndef ONLINE_JUDGE
+    #ifndef ONLINE_JUDGE //if the identifier specified in not defined as a macros, the line of code immediealy after this passed to the complier
+    // condtional compilation
+     // #ifdef  if the idetifier specified is mentioned then blocks of ocde will execute !!!!
+    // #ifdef is opposite to #ifndef
+    // #undef _____  undefine the existing macros
       freopen("input.txt","r",stdin);
       freopen("output.txt","w",stdout);
       #endif
+   
     // data in classes shidnt be made public as they can be mishandled
     // user may give wrong input then wrong outputs
     // classes is blamed for giving wrong output

@@ -14,7 +14,7 @@ class rectangle{
     rectangle(int l=0,int b=0) //default arguementz also work for null argyment passed
     {
         // l=l;
-        // b=b; error there so we bteer call setlength and set breadth functions
+        // b=b; error there so we better call setlength and set breadth functions
         setLength(l);
         setBreadth(b);
     }

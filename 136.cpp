@@ -9,9 +9,10 @@ int main()
       #endif
 
 
-      string email= "abhipalsra@gmail.com";
+      string email= "abhipahidfglsra@gmail.com";
       int index=email.find('@');
-      string username=email.substr(0,10);
+      cout<<index<<endl;
+      string username=email.substr(0,index);
       cout<<username<<endl;
       
       

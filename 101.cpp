@@ -11,7 +11,7 @@ int main()
     cout<<s<<endl; // reads 1st word only
     char f[50];
     cin.getline(f,50);  // get or getline until u hit enter or next line
-    cout<<f;
+    cout<<f<<endl;
 
 
 

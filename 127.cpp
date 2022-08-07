@@ -9,7 +9,7 @@ int main()
       #endif
   string s="hello world";
   cout<<s.at(4)<<endl; // read only
-  cout<<s[4]; // read + modify
+  cout<<s[4]<<endl; // read + modify
   cout<<s.front();
   cout<<s.back();
 

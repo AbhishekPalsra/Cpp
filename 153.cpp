@@ -9,7 +9,7 @@ void swap(int *p,int *q)
     *p=*q;
     *q=temp;
 }
-void selectionSort(int arr[],int k)
+void selectionSort(int arr[],int k)  //1st element is sorted 1st
 {
    int i,j;
    for(i=0;i<k-1;i++)

@@ -1,23 +1,24 @@
 #include<iostream>
 #include<bits/stdc++.h>
 using namespace std;  
-#define n 10
 int main()
 {
     #ifndef ONLINE_JUDGE
       freopen("input.txt","r",stdin);
       freopen("output.txt","w",stdout);
       #endif
-      int arr[n];
-      int sum=0;
-      for(int i=0;i<n;i++)
+      int arr[10];
+      for(int i=0;i<10;i++)
       {
           cin>>arr[i];
-          sum+=arr[i];
-        
+
       }
-      cout<<sum%2;
-   
+
+      sort(arr+1,arr+10);
+      for(int i=0;i<10;i++)
+      {
+          cout<<arr[i]<<endl;
+      }
 
 
       return 0;
