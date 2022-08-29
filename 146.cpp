@@ -7,10 +7,10 @@ class rectangle{
   int breadth;
   public:
   // constructor
-  rectangle();
-  rectangle(int l,int b);
-  rectangle(rectangle &r);
-  // accesor
+   rectangle();
+   rectangle(int l,int b);
+   rectangle(rectangle &r);
+   // accesor
    int getLength()
    {
        return length; // inline

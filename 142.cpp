@@ -85,7 +85,7 @@ int main()
       cout<<r1.area()<<endl;
       rectangle r2(10,5); // 
       cout<<r2.area()<<endl;
-      rectangle r3(r2); // copy contructor
+      rectangle r3(r2); // copy contructor  refrence
       cout<<r3.area()<<endl;
 
 
